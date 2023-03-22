@@ -1,7 +1,8 @@
 #include "main.h"
+
 /**
- * main - print _putchar
- * return: 0
+ * main - print Holberton, followed by new line
+ * Return: 0
  */
 
 int main(void)
