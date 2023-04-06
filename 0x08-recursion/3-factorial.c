@@ -3,7 +3,6 @@
 /**
  * factorial - returns the factorial of given number
  * @n: number to return the factorial
- *  
  * Return: factorial of number
  */
 
