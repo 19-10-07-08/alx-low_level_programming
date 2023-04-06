@@ -8,11 +8,13 @@
  */
 int check_root(int a, int root)
 {
-	if (root * root == a)
-		return (root);
 	if (root * root > a)
 		return (-1);
-	return (check_root(root + 1, a));
+
+	if (root * root == a)
+		return (root);
+
+	return (check_root(a, root + 1));
 }
 
 /**
@@ -24,5 +26,6 @@ int _sqrt_recursion(int n)
 {
 	if (n < 0)
 		return (-1);
-	return (check_root(0, n));
+
+	return (check_root(n, 0));
 }
