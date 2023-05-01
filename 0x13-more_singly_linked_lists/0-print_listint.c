@@ -5,8 +5,10 @@
 /**
  * print_listint - function prints a listint with newlines
  * @h: head of list to print
+ *
  * Return: length of list
  */
+
 size_t print_listint(const listint_t *h)
 {
 	size_t count;
